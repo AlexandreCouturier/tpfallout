@@ -1,0 +1,233 @@
+@font-face {
+    font-family: "roboto";
+    src: url(../../fonts/roboto/Roboto-Black.ttf) format("truetype"),
+        url(../../fonts/roboto/Roboto-BlackItalic.ttf) format("truetype"),
+        url(../../fonts/roboto/Roboto-BoldCondensed.ttf) format("truetype"),
+        url(../../fonts/roboto/Roboto-Condensed.ttf) format("truetype"),
+        url(../../fonts/roboto/Roboto-CondensedItalic.ttf) format("truetype"),
+        url(../../fonts/roboto/Roboto-Italic.ttf) format("truetype"),
+        url(../../fonts/roboto/Roboto-Light.ttf) format("truetype"),
+        url(../../fonts/roboto/Roboto-LightItalic.ttf) format("truetype"),
+        url(../../fonts/roboto/Roboto-Medium.ttf) format("truetype"),
+        url(../../fonts/roboto/Roboto-MediumItalic.ttf) format("truetype"),
+        url(../../fonts/roboto/Roboto-Regular.ttf) format("truetype"),
+        url(../../fonts/roboto/Roboto-Thin.ttf) format("truetype"),
+        url(../../fonts/roboto/Roboto-ThinItalic.ttf) format("truetype");
+    font-family: "roboto thin";
+    src: url("../../fonts/roboto_thin/roboto-thin_[fr.allfont.net].ttf") format("truetype");
+    font-family: "The Blacklist";
+        src: url(../../fonts/theBlackList/The\ Blacklist.ttf) format("truetype");
+}
+
+
+#container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.head{
+    background-image: url(../../image/Fallout_back.jpg);
+    width: 1100px;
+    height: 600px;
+    background-size: 120% 115%;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+}
+
+#regroupement{
+    position:absolute;
+    left: 25px; bottom: -130px;
+}
+
+#Titre{
+    display: inline-block;
+    color: gray;
+    font-size: 45px;
+    position: relative;
+    top: 80px; left: 35px;
+}
+
+.color{
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+
+#box{
+    font-family: "roboto", sans-serif;
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    background-color: rgb(220, 183, 36);
+    padding: 15px 8px;
+    font-size: 40px;
+    display: inline-block;
+}
+
+
+.div_inline{
+    display: inline-block;
+}
+
+#texteCoteDroit{
+    width: 375px;
+    height: 550px;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 45px;
+    text-align:left;
+    margin:auto;
+    position: relative;
+    right: 20px;
+}
+
+#fontDiff{
+    font-family: "roboto thin", sans-serif;
+    font-weight:lighter;
+    color: rgb(220, 183, 36);
+}
+
+#textPresentation{
+    font-family: "roboto Thin", sans-serif;
+    font-weight:lighter;
+    font-style: oblique 20deg;
+}
+
+#section{
+    width: 1100px;
+    height: 750px; 
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 1px;
+    box-shadow: 1px 1px 15px 0px gray;
+    background: linear-gradient(90deg, rgba(209,209,213,1) 0%, rgba(226,226,230,1) 2%, rgba(236,236,236,1) 5%, rgba(236,236,236,1) 5%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 90%, rgba(236,236,236,1) 95%, rgba(226,226,230,1) 98%, rgba(209,209,213,1) 100%);;
+}
+
+.centre{
+    font-family: "roboto", sans-serif;
+    width: 800px;
+    height: 600px;
+    text-align: justify;
+    position: relative;
+    left: 150px;
+    font-size: 20px;
+    font-weight: lighter;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#textGris{
+    color: rgb(20, 20, 20);
+    font-family: "roboto Thin",sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+#liste{
+    text-align:justify;
+    list-style-type:disc;
+    font-size: 18px;
+    font-family: "roboto",sans-serif;
+    line-height: 35px;
+}
+
+.espace{
+    margin-left: 25px;
+    white-space: normal;
+}
+
+.contentcolor{
+
+    color: rgb(220, 183, 36);
+    font-weight: bolder;
+}
+
+#border{
+    display: inline-block;
+    width: 30px;
+    height: 475px;
+    border-left-color: rgb(220, 183, 36);
+    border-left-width: 12px;
+    border-left-style: solid;
+    position: relative;
+    left: 125px; top: 25px;
+    vertical-align: top;
+}
+
+.content{
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: "roboto",sans-serif;
+}
+
+#textfin{
+    font-family: "roboto Thin", sans-serif;
+    font-weight: lighter;
+}
+
+#regroupementText{
+    position: absolute;
+    top: 50px;
+}
+
+.nom{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+footer{
+    background-color: black;
+    width: 1100px;
+    height: 250px;
+    position: relative;
+}
+
+#guyposition{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 75px;
+    bottom: 125px;
+    display: inline-block;
+}
+
+#goodJob{
+    display: inline-block;
+    position: absolute;
+    font-family: "The Blacklist";
+    color: white;
+    font-size: 40px;
+    left: 475px;
+}
+
+#icon{
+    position: relative;
+    display: inline-block;
+
+}
+
+#datesorti{
+    display: inline-block;
+    color: white;
+    position: relative;
+    width: 175px;
+    height: 200px;
+    bottom: 30px;
+    right: 160px;
+    text-align: center;
+    font-size: 35px;
+}
+
+#iconFond{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+#console{
+    font-size: 18px ;
+}
+
+#datenov{
+    font-size: 20px;
+}
